@@ -5,7 +5,7 @@ import joblib
 
 # Load trained model
 model = joblib.load(
-    "/content/drive/MyDrive/IDS_PROJECT/intrusion_detection_model.pkl"
+    "intrusion_detection_model.pkl"
 )
 
 st.set_page_config(
